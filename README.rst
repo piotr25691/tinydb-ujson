@@ -17,8 +17,8 @@ Quick Links
 Introduction
 ************
 
-TinyDB is a lightweight document oriented database optimized for your happiness :)
-It's written in pure Python and has no external dependencies. The target are
+This is a fork of TinyDB, a lightweight document oriented database optimized for your happiness :)
+It's written in pure Python and only needs `UltraJSON <https://github.com/ultrajson/ultrajson>`_. The target are
 small apps that would be blown away by a SQL-DB or an external database server.
 
 TinyDB is:
@@ -52,7 +52,7 @@ projects on the `discussion forum <http://forum.m-siemens.de/.>`_.
 Supported Python Versions
 *************************
 
-TinyDB has been tested with Python 3.6 - 3.10 and PyPy3.
+This fork of TinyDB requires at least Python 3.7.
 
 Example Code
 ************
