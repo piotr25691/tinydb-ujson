@@ -54,6 +54,7 @@ coveralls = "^1.8.2"
 pyyaml = "^5.1.2"
 pytest-mypy = { version = "^0.8.1", markers = "platform_python_implementation != 'PyPy'" }
 types-PyYAML = "^5.4.3"
+types-ujson = "^5.5.0"
 typing-extensions = { version = "^3.10.0" }
 
 [build-system]

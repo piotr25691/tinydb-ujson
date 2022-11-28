@@ -537,6 +537,14 @@ optional = false
 python-versions = "*"
 
 [[package]]
+name = "types-ujson"
+version = "5.5.0"
+description = "Typing stubs for ujson"
+category = "dev"
+optional = false
+python-versions = "*"
+
+[[package]]
 name = "typing-extensions"
 version = "3.10.0.2"
 description = "Backported and Experimental Type Hints for Python 3.5+"
@@ -580,7 +588,7 @@ testing = ["func-timeout", "jaraco.itertools", "pytest (>=4.6)", "pytest-black (
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.7"
-content-hash = "3ff9cd99f5b9a8e0d30e25a35fb126c77d32fa388866963c6971271eadcce2a0"
+content-hash = "7cdc90c6024dbddfa4b4e2272a1110ae0033c0d1073d4036f9436cb2089df2f6"
 
 [metadata.files]
 alabaster = [
@@ -957,6 +965,10 @@ typed-ast = [
 types-pyyaml = [
     {file = "types-PyYAML-5.4.12.tar.gz", hash = "sha256:3f4daa754357491625ae8c3a39c9e1b0d7cd5632bc4e1c35e7a7f75a64aa124b"},
     {file = "types_PyYAML-5.4.12-py3-none-any.whl", hash = "sha256:e06083f85375a5678e4c19452ed6467ce2167b71db222313e1792cb8fc76859a"},
+]
+types-ujson = [
+    {file = "types-ujson-5.5.0.tar.gz", hash = "sha256:74bc0ec76e3caf3682625703aad4aa9999327517e39afae67bb5aa3100a39bb8"},
+    {file = "types_ujson-5.5.0-py3-none-any.whl", hash = "sha256:6051e6b80d71382f1f85b0f97b475d84621eae3e2789ed24c5721f784b0846e1"},
 ]
 typing-extensions = [
     {file = "typing_extensions-3.10.0.2-py2-none-any.whl", hash = "sha256:d8226d10bc02a29bcc81df19a26e56a9647f8b0a6d4a83924139f4a8b01f17b7"},
