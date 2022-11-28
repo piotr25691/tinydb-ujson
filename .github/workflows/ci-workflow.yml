@@ -44,9 +44,3 @@ jobs:
         poetry build
         twine check dist/*
       if: ${{ contains(matrix.python-version, '3.10') }}
-    - name: Upload coverage result
-      if: ${{ env.COVERALLS_REPO_TOKEN != 'windows-latest' }}
-      env:
-        COVERALLS_REPO_TOKEN: ${{ secrets.COVERALLS_REPO_TOKEN }}
-      run: |
-         poetry run coveralls
