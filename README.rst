@@ -36,7 +36,7 @@ TinyDB is:
   e.g. `PyMongo <https://api.mongodb.org/python/current/>`_) nor any dependencies
   from PyPI.
 
-- **works on Python 3.6+ and PyPy3:** TinyDB works on all modern versions of Python
+- **works on Python 3.7+ and PyPy3:** TinyDB works on all modern versions of Python
   and PyPy.
 
 - **powerfully extensible:** You can easily extend TinyDB by writing new
