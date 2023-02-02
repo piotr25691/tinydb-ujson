@@ -43,7 +43,7 @@ packages = [
 
 [tool.poetry.dependencies]
 python = "^3.7"
-ujson = { version =  "^5.5.0" }
+ujson = { version =  "^5.7.0" }
 
 [tool.poetry.dev-dependencies]
 pytest = "^7.2.0"
@@ -55,7 +55,7 @@ coveralls = "^3.3.1"
 pyyaml = "^6.0"
 pytest-mypy = { version = "^0.10.2", markers = "platform_python_implementation != 'PyPy'" }
 types-PyYAML = "^5.4.3"
-types-ujson = "^5.5.0"
+types-ujson = "^5.7.0"
 typing-extensions = { version = "^4.4.0" }
 
 [build-system]
