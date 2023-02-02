@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "tinydb-ujson"
-version = "4.7.0"
+version = "4.7.1"
 description = "TinyDB is a tiny, document oriented database optimized for your happiness :). Now made faster!"
 authors = ["Markus Siemens <markus@m-siemens.de>"]
 license = "MIT"
@@ -21,11 +21,11 @@ classifiers = [
     "Topic :: Database :: Database Engines/Servers",
     "Topic :: Utilities",
     "Programming Language :: Python :: 3",
-    "Programming Language :: Python :: 3.6",
     "Programming Language :: Python :: 3.7",
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
     "Programming Language :: Python :: Implementation :: CPython",
     "Programming Language :: Python :: Implementation :: PyPy",
     "Operating System :: OS Independent",
@@ -33,7 +33,8 @@ classifiers = [
 ]
 
 packages = [
-    { include = "tinydb" }
+    { include = "tinydb" },
+    { include = "tests", format = "sdist" }
 ]
 
 [tool.poetry.urls]
@@ -45,17 +46,17 @@ python = "^3.7"
 ujson = { version =  "^5.5.0" }
 
 [tool.poetry.dev-dependencies]
-pytest = "^6.2.5"
-pytest-codestyle = "^1.4.0"
-pytest-cov = "^2.8.1"
-pycodestyle = "^2.5.0"
-sphinx = "^2.2.1"
-coveralls = "^1.8.2"
-pyyaml = "^5.1.2"
-pytest-mypy = { version = "^0.8.1", markers = "platform_python_implementation != 'PyPy'" }
+pytest = "^7.2.0"
+pytest-pycodestyle = "^2.3.1"
+pytest-cov = "^4.0.0"
+pycodestyle = "^2.10.0"
+sphinx = "^5.3.0"
+coveralls = "^3.3.1"
+pyyaml = "^6.0"
+pytest-mypy = { version = "^0.10.2", markers = "platform_python_implementation != 'PyPy'" }
 types-PyYAML = "^5.4.3"
 types-ujson = "^5.5.0"
-typing-extensions = { version = "^3.10.0" }
+typing-extensions = { version = "^4.4.0" }
 
 [build-system]
 requires = ["poetry-core"]

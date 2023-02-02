@@ -52,7 +52,8 @@ projects on the `discussion forum <http://forum.m-siemens.de/.>`_.
 Supported Python Versions
 *************************
 
-This fork of TinyDB requires at least Python 3.7.
+
+TinyDB has been tested with Python 3.7 - 3.11 and PyPy3.
 
 Example Code
 ************
