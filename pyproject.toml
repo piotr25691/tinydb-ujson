@@ -1,7 +1,7 @@
 [tool.poetry]
 name = "tinydb-ujson"
-version = "4.7.1"
 description = "TinyDB is a tiny, document oriented database optimized for your happiness :). Now made faster!"
+version = "4.8.0"
 authors = ["Markus Siemens <markus@m-siemens.de>"]
 license = "MIT"
 
